@@ -5,6 +5,9 @@ _MIT's iGEM (International Genetically Engineered Machine) team website_.
 ## Links
 - [biomakers.mit.edu](https://biomakers.mit.edu)
 
+## Tools
+- SimBiology
+
 ## Past projects
 - [2004: Synchronized chemotactic oscillators](./static/iGEM%20MIT%202004%20Final%20Presentation.pdf)
 - [2005: Making bacteria produce proinsulin in response to glucose](https://openwetware.org/wiki/IGEM:MIT/2005/Intro_of_project)
