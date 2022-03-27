@@ -1,0 +1,19 @@
+@import "colors.scss";
+@import "fonts.scss";
+
+$max-width: 980px;
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: black;
+    color: $off-white;
+    font-family: $serif;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 400;
+}

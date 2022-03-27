@@ -1,30 +1,29 @@
 import * as React from "react"
-import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
-
 import Layout from "../components/layout"
-import Seo from "../components/seo"
+import "../styles/all.scss"
+
+import * as styles from "../styles/index.module.scss"
 
 const IndexPage = () => (
   <Layout>
-    <Seo title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <StaticImage
-      src="../images/gatsby-astronaut.png"
-      width={300}
-      quality={95}
-      formats={["auto", "webp", "avif"]}
-      alt="A Gatsby astronaut"
-      style={{ marginBottom: `1.45rem` }}
-    />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
-    </p>
+    <div className={styles.mainContainer}>
+      <main>
+        <div className={styles.hero}>
+          <div className={styles.heroTextContainer}>
+            <h1 className={styles.heroText}>
+              MIT's student-run <span>synthetic biology</span> research team.
+            </h1>
+          </div>
+
+          <div className={styles.heroImageContainer}>
+            <img src="/cancer-4x4.jpg" />
+            <p>Detecting cancer in human tissues, LM.</p>
+            <p>Aamir Ahmed, Jane Pendjiky and Michael Millar.</p>
+            <p>Attribution 4.0 International (CC BY 4.0)</p>
+          </div>
+        </div>
+      </main>
+    </div>
   </Layout>
 )
 
