@@ -1,14 +1,21 @@
-$header-height: 60px;
+@import "all.scss";
+
+$header-height: 80px;
 
 .container {
+    max-width: $max-width;
+    width: 90%;
+    margin: 0 auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     height: $header-height;
 }
 
 .nav {
+    font-size: 1.2rem;
     display: flex;
     justify-content: space-between;
-    width: 60%;
+    width: 40%;
+    min-width: 270px;
 }
