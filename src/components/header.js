@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 import Logo from "../svgs/logo-text.svg"
 
 import * as styles from "../styles/header.module.scss"
@@ -12,13 +13,15 @@ const Header = () => {
 
   return (
     <header className={styles.container}>
-      <Logo style={logoStyles} />
+      <Link to="/">
+        <Logo style={logoStyles} />
+      </Link>
 
       <nav className={styles.nav}>
-        <a>About</a>
-        <a>iGEM 2022</a>
-        <a>Events</a>
-        <a>Sponsors</a>
+        <a href="/#about">About</a>
+        <a href="/#igem2022">iGEM 2022</a>
+        <a href="/#events">Events</a>
+        <a href="/sponsors">Sponsors</a>
       </nav>
     </header>
   )
