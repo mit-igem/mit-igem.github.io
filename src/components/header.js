@@ -6,7 +6,7 @@ import * as styles from "../styles/header.module.scss"
 
 const Header = () => {
   const logoStyles = {
-    fill: "#fff",
+    fill: "#222",
     width: "8em",
     padding: "0.5em",
   }

@@ -19,7 +19,7 @@ $header-height: 80px;
     justify-content: space-between;
 
     a {
-        color: $off-white;
+        color: $off-black;
         text-decoration: none;
         border-bottom: 4px solid rgba(0, 0, 0, 0);
         padding: 1vw 1vw 0.5vw 1vw;
@@ -28,6 +28,7 @@ $header-height: 80px;
 
     a:hover,
     a:focus {
-        border-bottom: 4px solid $off-white;
+        border-bottom: 4px solid $off-black;
+        transition: all 0.1s;
     }
 }

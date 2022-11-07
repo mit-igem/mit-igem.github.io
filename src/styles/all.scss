@@ -1,3 +1,4 @@
+@use "gradients";
 @import "colors.scss";
 @import "fonts.scss";
 
@@ -9,8 +10,8 @@ html {
 }
 
 body {
-    background-color: black;
-    color: $off-white;
+    background-color: $off-white;
+    color: $off-black;
     font-family: $serif;
     padding-bottom: 2rem;
 }
@@ -18,4 +19,8 @@ body {
 h1 {
     margin: 0;
     font-weight: 400;
+}
+
+a {
+    font-weight: 700;
 }

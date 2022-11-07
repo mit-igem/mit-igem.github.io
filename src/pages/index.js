@@ -20,7 +20,7 @@ const IndexPage = () => (
           </div>
 
           <div className={styles.heroImageContainer}>
-            <img src="/cancer-4x4.jpg" />
+            <img src="/cancer-4x4-transparent.png" />
             <p>Detecting cancer in human tissues, LM.</p>
             <p>Aamir Ahmed, Jane Pendjiky and Michael Millar.</p>
             <p>Attribution 4.0 International (CC BY 4.0)</p>
@@ -53,8 +53,16 @@ const IndexPage = () => (
             electrical engineering and computer science, math, chemistry,
             mechanical engineering, architecture, and more. Since 2003, the MIT
             iGEM team has been supported by the MIT Synthetic Biology Center and
-            Weiss Lab, and is currently operating out of the Huang-Hobbs
-            BioMaker Space (HHBMS).
+            the{" "}
+            <a
+              href="https://weiss-lab.mit.edu/"
+              target="_blank"
+              rel="noreferer"
+            >
+              Weiss Lab
+            </a>
+            , and is currently operating out of the Huang-Hobbs BioMaker Space
+            (HHBMS).
           </p>
 
           <p>
@@ -102,6 +110,7 @@ const IndexPage = () => (
                 COVID-19 cytokine storms
               </li>
               <li>2021: Probiotic treatment for Maple Syrup Urine Disease</li>
+              <li>2022: GSHield, a smart patch to prevent oral mucositis</li>
             </ul>
           </p>
         </section>
@@ -119,14 +128,29 @@ const IndexPage = () => (
         <section className={styles.section}>
           <a name="events"></a>
           <h1>Events</h1>
+          <p>
+            iGEM is more than just a project; we host events to develop MIT's
+            synthetic biology community, particularly among undergraduates.
+          </p>
           <h2>Journal Club</h2>
           <h2>Workshops</h2>
-          <h2>Seminars</h2>
+          <h2>Community Projects</h2>
+          <p>
+            We believe that the best way to learn is by doing. Because of the
+            unique openness of the Huang-Hobbs BioMaker Space, we are able to
+            host community projects through which students can experience the
+            design-build-test-learn cycle.
+          </p>
         </section>
 
         <section className={styles.section}>
           <a name="sponsors"></a>
           <h1>Sponsors</h1>
+          <p>
+            MIT iGEM would not be possible without our generous sponsors. We
+            wish to express our sincerest gratitude for their support. Thank you
+            again, sponsors!
+          </p>
         </section>
       </main>
     </div>

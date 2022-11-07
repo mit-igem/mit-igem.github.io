@@ -1,4 +1,5 @@
 @use "gradients";
+@import "gradients.scss";
 @import "all.scss";
 @import "fonts.scss";
 @import "header.module.scss";
@@ -74,6 +75,17 @@ span {
         margin: 2rem auto;
         width: min(110ch, 90%);
         font-size: 1.1rem;
+    }
+
+    a {
+        @include gradients.gradient2;
+    }
+
+    a:hover {
+        @include gradients.gradient2;
+        border-bottom: 3px solid transparent;
+        border-image: $gradient2colors;
+        border-image-slice: 1;
     }
 }
 
