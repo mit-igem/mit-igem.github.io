@@ -7,10 +7,6 @@ import SponsorPlasmidsaurus from "../images/plasmidsaurus.png"
 
 import * as styles from "../styles/index.module.scss"
 
-const Member = () => <div></div>
-
-const Members = () => <div></div>
-
 const IndexPage = () => (
   <Layout>
     <div className={styles.mainContainer}>
@@ -113,19 +109,18 @@ const IndexPage = () => (
                 COVID-19 cytokine storms
               </li>
               <li>2021: Probiotic treatment for Maple Syrup Urine Disease</li>
-              <li>2022: GSHield, a smart patch to prevent oral mucositis</li>
+              <li>
+                <a
+                  href="https://2022.igem.wiki/mit"
+                  target="_blank"
+                  rel="noreferer"
+                >
+                  2022: GSHield, a smart glutathione patch to prevent oral
+                  mucositis
+                </a>
+              </li>
             </ul>
           </p>
-        </section>
-
-        <section className={styles.section}>
-          <a name="igem2022"></a>
-          <h1>iGEM 2022</h1>
-          <h2>Project</h2>
-          <h2>Students</h2>
-          <Members />
-          <h2>Mentors</h2>
-          <h2>Advisors</h2>
         </section>
 
         <section className={styles.section}>
