@@ -72,7 +72,7 @@ span {
     p {
         font-family: $sans;
         text-align: justify;
-        margin: 2rem auto;
+        margin: 1rem auto;
         width: min(110ch, 90%);
         font-size: 1.1rem;
     }
@@ -103,5 +103,11 @@ span {
 
     img {
         width: 100%;
+        filter: grayscale(100%) contrast(60%) opacity(50%);
+    }
+
+    img:hover {
+        filter: none;
+        transition: all 0.3s;
     }
 }

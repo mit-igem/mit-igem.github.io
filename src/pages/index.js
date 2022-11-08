@@ -127,17 +127,23 @@ const IndexPage = () => (
           <a name="events"></a>
           <h1>Events</h1>
           <p>
-            iGEM is more than just a project; we host events to develop MIT's
-            synthetic biology community, particularly among undergraduates.
+            iGEM is more than just a research project; we also work on
+            developing MIT's synthetic biology community, particularly among
+            undergraduates.
           </p>
           <h2>Journal Club</h2>
           <h2>Workshops</h2>
+          <p>
+            We believe that the best way to learn is by doing. With the unique
+            openness of the Huang-Hobbs BioMaker Space, we offer MIT community
+            members the opportunity to explore synthetic biology. Our past
+            workshops have included culturing muscle tissue (BioBots), bacterial
+            photography, and an introduction to CRISPR.
+          </p>
           <h2>Community Projects</h2>
           <p>
-            We believe that the best way to learn is by doing. Because of the
-            unique openness of the Huang-Hobbs BioMaker Space, we are able to
-            host community projects through which students can experience the
-            design-build-test-learn cycle.
+            we are able to host community projects through which students can
+            experience the design-build-test-learn cycle.
           </p>
         </section>
 
