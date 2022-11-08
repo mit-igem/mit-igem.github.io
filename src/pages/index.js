@@ -1,6 +1,9 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import "../styles/all.scss"
+import SponsorMITBE from "../images/mit-be.png"
+import SponsorMITChemE from "../images/mit-cheme.png"
+import SponsorPlasmidsaurus from "../images/plasmidsaurus.png"
 
 import * as styles from "../styles/index.module.scss"
 
@@ -150,6 +153,25 @@ const IndexPage = () => (
             MIT iGEM would not be possible without our generous sponsors. We
             wish to express our sincerest gratitude for their support. Thank you
             again, sponsors!
+          </p>
+
+          <p>
+            <table className={styles.sponsorsTable}>
+              <tr>
+                <td>
+                  <img src={SponsorMITBE} alt="MIT Biological Engineering" />
+                </td>
+                <td>
+                  <img src={SponsorMITChemE} alt="MIT Chemical Engineering" />
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <img src={SponsorPlasmidsaurus} alt="Plasmidsaurus" />
+                </td>
+                <td></td>
+              </tr>
+            </table>
           </p>
         </section>
       </main>

@@ -1,14 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
-import Logo from "../svgs/logo-text.svg"
+import Logo from "../svgs/logo-text-2.svg"
 
 import * as styles from "../styles/header.module.scss"
 
 const Header = () => {
   const logoStyles = {
-    fill: "#222",
     width: "8em",
     padding: "0.5em",
+    shapeRendering: "geometricPrecision",
   }
 
   return (
