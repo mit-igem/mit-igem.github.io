@@ -124,6 +124,29 @@ const IndexPage = () => (
         </section>
 
         <section className={styles.section}>
+          <a name="igenm2023"></a>
+          <h1>iGEM 2023</h1>
+          <p>
+            If you want to learn synthetic biology, and want to be part of a
+            student-driven project to tackle a problem you care about, you would
+            be a good fit for MIT's iGEM 2023 student team! You can find more
+            information about the MIT iGEM program from the{" "}
+            <a
+              target="_blank"
+              rel="noreferrer"
+              href="https://docs.google.com/presentation/d/1zW-HU0oy37JDy5lau1DIy9staPdsQjX3RjvM0j3UCeo/edit#slide=id.g1873e9a897c_0_0"
+            >
+              info session slides linked here.
+            </a>
+          </p>
+          <p>
+            Applications for iGEM 2023 will open December 1, 2022 and will
+            remain open until December 31, 2022 11:59PM. The link to the
+            application will available on this website.
+          </p>
+        </section>
+
+        {/* <section className={styles.section}>
           <a name="events"></a>
           <h1>Events</h1>
           <p>
@@ -145,7 +168,7 @@ const IndexPage = () => (
             we are able to host community projects through which students can
             experience the design-build-test-learn cycle.
           </p>
-        </section>
+        </section> */}
 
         <section className={styles.section}>
           <a name="sponsors"></a>

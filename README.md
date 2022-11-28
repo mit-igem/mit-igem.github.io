@@ -31,3 +31,4 @@ _MIT's iGEM (International Genetically Engineered Machine) team website_.
 ## Mailing lists
 - `biomakers-public`. For news and updates for events hosted by the MIT BioMakers.
 - `biomakerspace-announce`. For news and updates on the Huang-Hobbs BioMaker Space.
+- `biomakerspace-news`. Biomakerspace newletter.

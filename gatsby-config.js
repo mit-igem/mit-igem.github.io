@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: ".env",
+})
+
 module.exports = {
   pathPrefix: "/",
   siteMetadata: {
@@ -27,5 +31,13 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-web-font-loader`,
+      options: {
+        typekit: {
+          id: process.env.GATSBY_ADOBE_FONT_PROJECT_ID,
+        },
+      },
+    },
   ],
 }
