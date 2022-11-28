@@ -124,13 +124,19 @@ const IndexPage = () => (
         </section>
 
         <section className={styles.section}>
-          <a name="igenm2023"></a>
+          <a name="igem2023"></a>
           <h1>iGEM 2023</h1>
           <p>
             If you want to learn synthetic biology, and want to be part of a
             student-driven project to tackle a problem you care about, you would
-            be a good fit for MIT's iGEM 2023 student team! You can find more
-            information about the MIT iGEM program from the{" "}
+            be a good fit for MIT's iGEM 2023 student team!
+          </p>
+
+          <p>
+            You can find more information about the MIT iGEM program by coming
+            to the information session on{" "}
+            <b>November 30, 2022 at 5PM in room 26-033 (the BioMaker Space)</b>{" "}
+            and by viewing the{" "}
             <a
               target="_blank"
               rel="noreferrer"
