@@ -39,5 +39,15 @@ module.exports = {
         },
       },
     },
+    {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-F87615L72G"],
+        gtagConfig: {
+          anonymous_ip: true,
+          cookie_expires: 0,
+        },
+      },
+    },
   ],
 }
