@@ -78,10 +78,14 @@ span {
     }
 
     a {
+        color: black;
+    }
+
+    .gradient {
         @include gradients.gradient;
     }
 
-    a:hover {
+    .gradient:hover {
         @include gradients.gradient;
         border-bottom: 3px solid transparent;
         border-image: $gradient1colors;

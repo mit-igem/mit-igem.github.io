@@ -111,6 +111,7 @@ const IndexPage = () => (
               <li>2021: Probiotic treatment for Maple Syrup Urine Disease</li>
               <li>
                 <a
+                  className={styles.gradient}
                   href="https://2022.igem.wiki/mit"
                   target="_blank"
                   rel="noreferer"
@@ -138,6 +139,7 @@ const IndexPage = () => (
             <b>November 30, 2022 at 5PM in room 26-033 (the BioMaker Space)</b>{" "}
             and by viewing the{" "}
             <a
+              className={styles.gradient}
               target="_blank"
               rel="noreferrer"
               href="https://docs.google.com/presentation/d/1zW-HU0oy37JDy5lau1DIy9staPdsQjX3RjvM0j3UCeo/edit#slide=id.g1873e9a897c_0_0"
