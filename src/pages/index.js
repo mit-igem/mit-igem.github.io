@@ -142,7 +142,7 @@ const IndexPage = () => (
               className={styles.gradient}
               target="_blank"
               rel="noreferrer"
-              href="https://docs.google.com/presentation/d/1zW-HU0oy37JDy5lau1DIy9staPdsQjX3RjvM0j3UCeo/edit#slide=id.g1873e9a897c_0_0"
+              href="https://docs.google.com/presentation/d/1zW-HU0oy37JDy5lau1DIy9staPdsQjX3RjvM0j3UCeo/edit#slide=id.p"
             >
               info session slides linked here.
             </a>
