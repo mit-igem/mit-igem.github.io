@@ -149,8 +149,8 @@ const IndexPage = () => (
           </p>
           <p>
             Applications for iGEM 2023 will open December 1, 2022 and will
-            remain open until December 31, 2022 11:59PM. The link to the
-            application will available on this website.
+            remain open until December 31, 2022 11:59PM. <a className={styles.gradient} target="_blank" rel="noreferrer" href="https://tinyurl.com/igem23app">
+            Click here</a> to view the application.
           </p>
         </section>
 
