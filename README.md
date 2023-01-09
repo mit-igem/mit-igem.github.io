@@ -32,3 +32,10 @@ _MIT's iGEM (International Genetically Engineered Machine) team website_.
 - `biomakers-public`. For news and updates for events hosted by the MIT BioMakers.
 - `biomakerspace-announce`. For news and updates on the Huang-Hobbs BioMaker Space.
 - `biomakerspace-news`. Biomakerspace newletter.
+
+## Developer notes
+
+```bash
+# install and use Node.js v18
+nvm install 18
+```

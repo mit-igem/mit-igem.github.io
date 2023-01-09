@@ -56,7 +56,7 @@ const IndexPage = () => (
             <a
               href="https://weiss-lab.mit.edu/"
               target="_blank"
-              rel="noreferer"
+              rel="noreferrer"
             >
               Weiss Lab
             </a>
@@ -114,7 +114,7 @@ const IndexPage = () => (
                   className={styles.gradient}
                   href="https://2022.igem.wiki/mit"
                   target="_blank"
-                  rel="noreferer"
+                  rel="noreferrer"
                 >
                   2022: GSHield, a smart glutathione patch to prevent oral
                   mucositis
@@ -148,8 +148,8 @@ const IndexPage = () => (
             </a>
           </p>
           <p>
-            Applications for iGEM 2023 will open December 1, 2022 and will
-            remain open until December 31, 2022 11:59PM.{" "}
+            Applications for iGEM 2023 will open Thursday, December 1, 2022 and
+            will remain open until Saturday, January 28, 2023 11:59PM.{" "}
             <a
               className={styles.gradient}
               target="_blank"
