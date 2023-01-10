@@ -20,6 +20,7 @@ const Header = () => {
       <nav className={styles.nav}>
         <a href="/#about">About</a>
         <a href="/#igem2023">iGEM 2023</a>
+        <a href="/#events">Events</a>
         <a href="/#sponsors">Sponsors</a>
       </nav>
     </header>

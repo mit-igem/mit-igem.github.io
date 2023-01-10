@@ -91,6 +91,12 @@ span {
         border-image: $gradient1colors;
         border-image-slice: 1;
     }
+
+    iframe {
+        display: block;
+        padding-top: 1rem;
+        margin: 0 auto;
+    }
 }
 
 .pastProjects {

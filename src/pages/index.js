@@ -161,6 +161,20 @@ const IndexPage = () => (
           </p>
         </section>
 
+        <section className={styles.section}>
+          <a name="events"></a>
+          <h1>Upcoming events</h1>
+
+          <iframe
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=1&bgcolor=%23ffffff&ctz=America%2FNew_York&showPrint=0&showCalendars=0&title=MIT%20iGEM%20Events&src=YjM5MWVkMzNkNDQ1MTY3MWZmY2ZjOGIzMWViZTZkNGVlMDc4NmZjOWEyZjcwMTYwNDY1NTAxYWJiYzBkMzU4MUBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23a79a00"
+            style={{ "border-width": "0" }}
+            width="800"
+            height="600"
+            frameborder="0"
+            scrolling="no"
+          ></iframe>
+        </section>
+
         {/* <section className={styles.section}>
           <a name="events"></a>
           <h1>Events</h1>
