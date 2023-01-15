@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import Logo from "../svgs/logo-text-2.svg"
+import Logo from "../svgs/logo-text.svg"
 
 import * as styles from "../styles/header.module.scss"
 

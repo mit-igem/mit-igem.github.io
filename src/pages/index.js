@@ -233,3 +233,14 @@ const IndexPage = () => (
 )
 
 export default IndexPage
+
+export const Head = () => (
+  <>
+    <title>MIT iGEM &ndash; Synbio@MIT</title>
+    <meta
+      name="description"
+      content="MIT's student-run synthetic biology research team."
+    />
+    <link rel="shortcut icon" type="image/png" href="/logo.png" />
+  </>
+)
