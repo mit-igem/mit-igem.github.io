@@ -4,6 +4,7 @@ import "../styles/all.scss"
 import SponsorMITBE from "../images/mit-be.png"
 import SponsorMITChemE from "../images/mit-cheme.png"
 import SponsorPlasmidsaurus from "../images/plasmidsaurus.png"
+import GinkgoTalk from "../images/ginkgo-talk.png"
 
 import * as styles from "../styles/index.module.scss"
 
@@ -24,6 +25,14 @@ const IndexPage = () => (
             <p>Aamir Ahmed, Jane Pendjiky and Michael Millar.</p>
             <p>Attribution 4.0 International (CC BY 4.0)</p>
           </div>
+        </section>
+
+        <section className={styles.section}>
+          <img
+            className={styles.featuredEvent}
+            src={GinkgoTalk}
+            alt="Ginkgo Bioworks talk January 24, 2023 in room 26-033 at 6PM."
+          />
         </section>
 
         <section className={styles.section}>
