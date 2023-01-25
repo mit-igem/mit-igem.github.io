@@ -4,7 +4,7 @@ import "../styles/all.scss"
 import SponsorMITBE from "../images/mit-be.png"
 import SponsorMITChemE from "../images/mit-cheme.png"
 import SponsorPlasmidsaurus from "../images/plasmidsaurus.png"
-import GinkgoTalk from "../images/ginkgo-talk.png"
+import SustainabilityTalk from "../images/sustainability-talk.png"
 
 import * as styles from "../styles/index.module.scss"
 
@@ -30,8 +30,8 @@ const IndexPage = () => (
         <section className={styles.section}>
           <img
             className={styles.featuredEvent}
-            src={GinkgoTalk}
-            alt="Ginkgo Bioworks talk January 24, 2023 in room 26-033 at 6PM."
+            src={SustainabilityTalk}
+            alt="Synthetic biology and sustainability talk January 26, 2023 in room 26-033 at 1PM."
           />
         </section>
 
