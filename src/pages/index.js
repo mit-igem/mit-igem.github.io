@@ -4,6 +4,7 @@ import "../styles/all.scss"
 import SponsorMITBE from "../images/mit-be.png"
 import SponsorMITChemE from "../images/mit-cheme.png"
 import SponsorPlasmidsaurus from "../images/plasmidsaurus.png"
+import SponsorAddgene from "../images/addgene.png"
 import SustainabilityTalk from "../images/sustainability-talk.png"
 
 import * as styles from "../styles/index.module.scss"
@@ -209,29 +210,54 @@ const IndexPage = () => (
         </section> */}
 
         <section className={styles.section}>
-          <a name="sponsors"></a>
-          <h1>Sponsors</h1>
+          <a name="supporters"></a>
+          <h1>Our supporters</h1>
           <p>
-            MIT iGEM would not be possible without our generous sponsors. We
-            wish to express our sincerest gratitude for their support. Thank you
-            again, sponsors!
+            MIT iGEM would not be possible without our supporters. We wish to
+            express our sincerest gratitude for their generosity!
           </p>
 
           <p>
             <table className={styles.sponsorsTable}>
               <tr>
                 <td>
-                  <img src={SponsorMITBE} alt="MIT Biological Engineering" />
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://be.mit.edu/"
+                  >
+                    <img src={SponsorMITBE} alt="MIT Biological Engineering" />
+                  </a>
                 </td>
                 <td>
-                  <img src={SponsorMITChemE} alt="MIT Chemical Engineering" />
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://cheme.mit.edu/"
+                  >
+                    <img src={SponsorMITChemE} alt="MIT Chemical Engineering" />
+                  </a>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <img src={SponsorPlasmidsaurus} alt="Plasmidsaurus" />
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://www.plasmidsaurus.com/"
+                  >
+                    <img src={SponsorPlasmidsaurus} alt="Plasmidsaurus" />
+                  </a>
                 </td>
-                <td></td>
+                <td>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://www.addgene.org/"
+                  >
+                    <img src={SponsorAddgene} alt="Addgene" />
+                  </a>
+                </td>
               </tr>
             </table>
           </p>
