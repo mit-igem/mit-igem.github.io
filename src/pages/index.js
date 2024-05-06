@@ -111,7 +111,7 @@ const IndexPage = () => (
               <li>2021: Probiotic treatment for Maple Syrup Urine Disease</li>
               <li>
                 <a
-                  className={styles.gradient}
+                  className={styles.nobold}
                   href="https://2022.igem.wiki/mit"
                   target="_blank"
                   rel="noreferrer"
@@ -120,45 +120,60 @@ const IndexPage = () => (
                   mucositis
                 </a>
               </li>
+              <li>
+                <a
+                  className={styles.nobold}
+                  href="https://2023.igem.wiki/mit"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  2023: CAR-P Diem, engineering macrophages to degrade IL-6, a
+                  driver of cancer cachexia
+                </a>
+              </li>
+              <li>
+                <a href="#" target="_blank" rel="noreferrer">
+                  2024: Targeting cancer metastasis
+                </a>
+              </li>
             </ul>
           </p>
         </section>
 
         <section className={styles.section}>
-          <a name="igem2023"></a>
-          <h1>iGEM 2023</h1>
+          <a name="igem2024"></a>
+          <h1>iGEM 2024</h1>
           <p>
-            If you want to learn synthetic biology, and want to be part of a
-            student-driven project to tackle a problem you care about, you would
-            be a good fit for MIT's iGEM 2023 student team!
+            This year, the students in MIT iGEM are tackling the greatest
+            challenge in treating cancer: cancer metastasis.
           </p>
 
           <p>
-            You can find more information about the MIT iGEM program by coming
-            to the information session on{" "}
-            <b>November 30, 2022 at 5PM in room 26-033 (the BioMaker Space)</b>{" "}
-            and by viewing the{" "}
+            Follow our progress on{" "}
             <a
               className={styles.gradient}
-              target="_blank"
-              rel="noreferrer"
-              href="https://docs.google.com/presentation/d/1zW-HU0oy37JDy5lau1DIy9staPdsQjX3RjvM0j3UCeo/edit#slide=id.p"
+              href="https://www.instagram.com/igem_mit"
             >
-              info session slides linked here.
+              Instagram
+            </a>{" "}
+            and{" "}
+            <a className={styles.gradient} href="https://twitter.com/igem_mit">
+              X (Twitter)
             </a>
+            .
           </p>
+        </section>
+
+        <section className={styles.section}>
+          <a name="join-igem"></a>
+          <h1>Join iGEM</h1>
           <p>
-            Applications for iGEM 2023 will open Thursday, December 1, 2022 and
-            will remain open until Saturday, January 28, 2023 11:59PM.{" "}
-            <a
-              className={styles.gradient}
-              target="_blank"
-              rel="noreferrer"
-              href="https://tinyurl.com/igem23app"
-            >
-              Click here to view the application.
-            </a>
+            If you want to learn synthetic biology, and want to be part of a
+            student-driven project to tackle a problem you care about, you would
+            be a good fit for MIT's iGEM student team!
           </p>
+
+          <p>Applications for MIT iGEM 2025 will open in September 2024.</p>
         </section>
 
         <section className={styles.section}>
