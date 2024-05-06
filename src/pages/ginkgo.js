@@ -1,6 +1,7 @@
 import * as React from "react"
 import Layout from "../components/layout"
 import * as styles from "../styles/ginkgo.module.scss"
+import GinkgoTalk from "../images/ginkgo-talk.png"
 
 const GinkgoRSVPPage = () => (
   <Layout>
@@ -8,13 +9,19 @@ const GinkgoRSVPPage = () => (
       <iframe
         src="https://docs.google.com/forms/d/e/1FAIpQLSdgbtKAxXGeQqu-Xg5uuCPlygbOVc-0tqahg1OgTPWI2tT_bA/viewform?embedded=true"
         width="640"
-        height="800"
+        height="720"
         frameborder="0"
         marginheight="0"
         marginwidth="0"
       >
         Loading…
       </iframe>
+
+      <img
+        className={styles.poster}
+        src={GinkgoTalk}
+        alt="Ginkgo Bioworks talk January 24, 2023 in room 26-033 at 6PM."
+      />
     </div>
   </Layout>
 )

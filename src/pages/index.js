@@ -4,6 +4,12 @@ import "../styles/all.scss"
 import SponsorMITBE from "../images/mit-be.png"
 import SponsorMITChemE from "../images/mit-cheme.png"
 import SponsorPlasmidsaurus from "../images/plasmidsaurus.png"
+import SponsorAddgene from "../images/addgene.png"
+import SponsorMITUROP from "../images/mit-urop.png"
+import SponsorMITSofE from "../images/mit-sofe.png"
+import SponsorCOOP from "../images/the-coop.png"
+
+import SustainabilityTalk from "../images/sustainability-talk.png"
 
 import * as styles from "../styles/index.module.scss"
 
@@ -24,6 +30,14 @@ const IndexPage = () => (
             <p>Aamir Ahmed, Jane Pendjiky and Michael Millar.</p>
             <p>Attribution 4.0 International (CC BY 4.0)</p>
           </div>
+        </section>
+
+        <section className={styles.section}>
+          <img
+            className={styles.featuredEvent}
+            src={SustainabilityTalk}
+            alt="Synthetic biology and sustainability talk January 26, 2023 in room 26-033 at 1PM."
+          />
         </section>
 
         <section className={styles.section}>
@@ -215,27 +229,88 @@ const IndexPage = () => (
         </section> */}
 
         <section className={styles.section}>
-          <a name="sponsors"></a>
-          <h1>Sponsors</h1>
+          <a name="supporters"></a>
+          <h1>Our supporters</h1>
           <p>
-            MIT iGEM would not be possible without our generous sponsors. We
-            wish to express our sincerest gratitude for their support. Thank you
-            again, sponsors!
+            MIT iGEM would not be possible without our supporters. We wish to
+            express our sincerest gratitude for their generosity!
           </p>
 
           <p>
             <table className={styles.sponsorsTable}>
               <tr>
                 <td>
-                  <img src={SponsorMITBE} alt="MIT Biological Engineering" />
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://be.mit.edu/"
+                  >
+                    <img src={SponsorMITBE} alt="MIT Biological Engineering" />
+                  </a>
                 </td>
                 <td>
-                  <img src={SponsorMITChemE} alt="MIT Chemical Engineering" />
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://cheme.mit.edu/"
+                  >
+                    <img src={SponsorMITChemE} alt="MIT Chemical Engineering" />
+                  </a>
                 </td>
               </tr>
               <tr>
                 <td>
-                  <img src={SponsorPlasmidsaurus} alt="Plasmidsaurus" />
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://engineering.mit.edu/"
+                  >
+                    <img src={SponsorMITSofE} alt="MIT School of Engineering" />
+                  </a>
+                </td>
+                <td>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://urop.mit.edu/"
+                  >
+                    <img src={SponsorMITUROP} alt="MIT UROP" />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://www.plasmidsaurus.com/"
+                  >
+                    <img src={SponsorPlasmidsaurus} alt="Plasmidsaurus" />
+                  </a>
+                </td>
+                <td>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://www.addgene.org/"
+                  >
+                    <img src={SponsorAddgene} alt="Addgene" />
+                  </a>
+                </td>
+              </tr>
+              <tr>
+                <td>DeFlorez Endowment Fund</td>
+                <td>Ralph L. Evans (1948) Endowment Fund</td>
+              </tr>
+              <tr>
+                <td>
+                  <a
+                    rel="noreferrer"
+                    target="_blank"
+                    href="https://www.thecoop.com/"
+                  >
+                    <img src={SponsorCOOP} alt="The COOP" />
+                  </a>
                 </td>
                 <td></td>
               </tr>
