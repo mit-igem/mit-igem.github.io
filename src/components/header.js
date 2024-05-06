@@ -19,7 +19,8 @@ const Header = () => {
 
       <nav className={styles.nav}>
         <a href="/#about">About</a>
-        <a href="/#igem2023">iGEM 2023</a>
+        <a href="/#igem2024">iGEM 2024</a>
+        <a href="/#join-igem">Join</a>
         <a href="/#events">Events</a>
         <a href="/#supporters">Supporters</a>
       </nav>

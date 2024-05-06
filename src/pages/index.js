@@ -9,8 +9,6 @@ import SponsorMITUROP from "../images/mit-urop.png"
 import SponsorMITSofE from "../images/mit-sofe.png"
 import SponsorCOOP from "../images/the-coop.png"
 
-import SustainabilityTalk from "../images/sustainability-talk.png"
-
 import * as styles from "../styles/index.module.scss"
 
 const IndexPage = () => (
@@ -30,14 +28,6 @@ const IndexPage = () => (
             <p>Aamir Ahmed, Jane Pendjiky and Michael Millar.</p>
             <p>Attribution 4.0 International (CC BY 4.0)</p>
           </div>
-        </section>
-
-        <section className={styles.section}>
-          <img
-            className={styles.featuredEvent}
-            src={SustainabilityTalk}
-            alt="Synthetic biology and sustainability talk January 26, 2023 in room 26-033 at 1PM."
-          />
         </section>
 
         <section className={styles.section}>
@@ -166,12 +156,19 @@ const IndexPage = () => (
             Follow our progress on{" "}
             <a
               className={styles.gradient}
+              target="_blank"
+              rel="noreferrer"
               href="https://www.instagram.com/igem_mit"
             >
               Instagram
             </a>{" "}
             and{" "}
-            <a className={styles.gradient} href="https://twitter.com/igem_mit">
+            <a
+              className={styles.gradient}
+              target="_blank"
+              rel="noreferrer"
+              href="https://twitter.com/igem_mit"
+            >
               X (Twitter)
             </a>
             .
