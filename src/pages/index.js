@@ -43,11 +43,10 @@ const IndexPage = () => (
           </p>
 
           <p>
-            In iGEM, student-led teams devise an independent research project in
-            a iGEM track of their choosing, ranging from diagnostics to
-            nutrition to manufacturing. The goal is identify a problem, devise
-            gene circuits to address it, and demonstrate a proof of concept in
-            the lab.
+            In iGEM, student-led teams devise an independent research project,
+            ranging from diagnostics to nutrition to manufacturing. The goal is
+            identify a problem, devise gene circuits to address it, and
+            demonstrate a proof of concept in the lab.
           </p>
 
           <p>
@@ -136,20 +135,27 @@ const IndexPage = () => (
                 </a>
               </li>
               <li>
-                <a href="#" target="_blank" rel="noreferrer">
-                  2024: Targeting cancer metastasis
+                <a
+                  className={styles.nobold}
+                  target="_blank"
+                  href="https://2024.igem.wiki/mit"
+                  rel="noreferrer"
+                >
+                  2024: Metaplate, targeting cancer metastasis
                 </a>
               </li>
+              <li>2025: Programmable RNA therapeutics</li>
             </ul>
           </p>
         </section>
 
         <section className={styles.section}>
-          <a name="igem2024"></a>
-          <h1>iGEM 2024</h1>
+          <a name="current-year"></a>
+          <h1>iGEM 2025</h1>
           <p>
-            This year, the students in MIT iGEM are tackling the greatest
-            challenge in treating cancer: cancer metastasis.
+            This year, the students in MIT iGEM will develop a toolkit for
+            building programmable RNA therapeutics, and demonstrate a
+            proof-of-concept in a therapeutic area of their choosing.
           </p>
 
           <p>
@@ -184,7 +190,17 @@ const IndexPage = () => (
             be a good fit for MIT's iGEM student team!
           </p>
 
-          <p>Applications for MIT iGEM 2025 will open in September 2024.</p>
+          <p>
+            Applications for MIT iGEM 2025 are open now:{" "}
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://tinyurl.com/mitigem25app"
+            >
+              https://tinyurl.com/mitigem25app
+            </a>
+            . See the application for details on deadlines.
+          </p>
         </section>
 
         <section className={styles.section}>
@@ -276,40 +292,8 @@ const IndexPage = () => (
                 </td>
               </tr>
               <tr>
-                <td>
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://www.plasmidsaurus.com/"
-                  >
-                    <img src={SponsorPlasmidsaurus} alt="Plasmidsaurus" />
-                  </a>
-                </td>
-                <td>
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://www.addgene.org/"
-                  >
-                    <img src={SponsorAddgene} alt="Addgene" />
-                  </a>
-                </td>
-              </tr>
-              <tr>
                 <td>DeFlorez Endowment Fund</td>
                 <td>Ralph L. Evans (1948) Endowment Fund</td>
-              </tr>
-              <tr>
-                <td>
-                  <a
-                    rel="noreferrer"
-                    target="_blank"
-                    href="https://www.thecoop.com/"
-                  >
-                    <img src={SponsorCOOP} alt="The COOP" />
-                  </a>
-                </td>
-                <td></td>
               </tr>
             </table>
           </p>
